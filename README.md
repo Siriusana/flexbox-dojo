@@ -46,31 +46,20 @@ Propriedades que podem ser alteradas (geral):
 
 ⭐️ Como Executar
 
-Este projeto é um único componente React (App.jsx). Para executá-lo, é necessário um ambiente React configurado (como Create React App ou Vite).
-
-Crie um novo projeto React:
-
-# Usando Vite 
-No terminal (exemplo VScode):
-    npm create vite@latest flexbox-dojo -- --template react
+# No terminal
+    git clone https://github.com/Siriusana/flexbox-dojo.git
     cd flexbox-dojo
     npm install
 
 
 Instale as dependências:
+
     npm install lucide-react
     npm install framer-motion
 
-
-Substitua o App.jsx:
-    Copie o conteúdo do arquivo app.jsx deste projeto e cole-o dentro do arquivo src/App.jsx do seu novo projeto.
-
-Limpe o index.css (Opcional):
-Como o projeto usa estilos inline e uma tag <style> interna, você pode querer limpar o arquivo src/index.css ou src/App.css para evitar conflitos de estilo.
-
 Inicie o servidor de desenvolvimento:
 
-npm run dev
+    npm run dev
 
 
 O site deverá abrir automaticamente em http://localhost:5173 (ou similar).
