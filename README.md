@@ -49,13 +49,10 @@ Propriedades que podem ser alteradas (geral):
 # No terminal
     git clone https://github.com/Siriusana/flexbox-dojo.git
     cd flexbox-dojo
-    npm install
-
 
 Instale as dependências:
 
-    npm install lucide-react
-    npm install framer-motion
+    npm install 
 
 Inicie o servidor de desenvolvimento:
 
