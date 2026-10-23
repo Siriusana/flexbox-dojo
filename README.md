@@ -62,7 +62,7 @@ Make sure you have Node.js installed on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/Siriusana/flexbox-dojo.git](https://github.com/Siriusana/flexbox-dojo.git)
+   git clone https://github.com/Siriusana/flexbox-dojo.git
 
 2. **Navigate to the project**
    ```bash
