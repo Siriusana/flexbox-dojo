@@ -1,64 +1,79 @@
-⭐️ Flexbox Dojo 
+# ⭐️ Flexbox Dojo
 
-É um aplicação interativa criada a partir da necessidade de aprender, relembrar e visualizar as propriedades do CSS Flexbox.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
 
-- Nesta aplicação é possível alterar propriedades, adicionar ou remover itens e testar a dinamicidade entre infinitas possibilidades do Flexbox.
+An interactive web application built to learn, review, and visualize CSS Flexbox properties in real-time.
 
-⭐️ Recursos
+[Explore the Docs](#-features) · [Report Bug](https://github.com/Siriusana/flexbox-dojo/issues) · [Request Feature](https://github.com/Siriusana/flexbox-dojo/issues)
 
-Propriedades que podem ser alteradas (geral):
+---
 
-    justify-content: Alinhar os itens no eixo principal.
+## The Project
 
-    align-items: Alinhar os itens no eixo transversal.
+**Flexbox Dojo** was created out of the need to practice, remember, and visually experiment with CSS Flexbox layouts. 
 
-    align-content: Distribuir as linhas do contêiner (quando há quebra de linha).
+In this application, you can modify container properties, adjust individual item settings, add or remove elements, and instantly inspect how layout behaviors change across endless Flexbox combinations.
 
-    flex-direction: Mudar a direção do eixo principal (row, column, etc.).
+---
 
-    gap: Ajustar o espaçamento entre os itens.
+## Features
 
-⭐️ Propriedades dos Itens:
+### 🎛️ General Container Properties
+* **`justify-content`**: Align items along the main axis.
+* **`align-items`**: Align items along the cross axis.
+* **`align-content`**: Distribute container lines when wrapping occurs.
+* **`flex-direction`**: Change the main axis direction (`row`, `column`, etc.).
+* **`gap`**: Adjust the spacing between flex items.
 
-    align-self (individual): Clique em um item específico para selecioná-lo e aplicar uma propriedade align-self individualmente.
+### Item Properties & Dynamics
+* **`align-self` (Individual)**: Select a specific item to apply custom `align-self` rules.
+* **Item Quantity**: Add or remove items dynamically to see `flex-wrap` behavior in action.
 
-    Quantidade de Itens: Adicione ou remova itens do contêiner para ver o funcionamento do flex-wrap.
+### Live Code Preview
+* **Real-time CSS**: Generates code based on your live selections.
+* **Toggle Visibility**: Easily hide or show the code block.
+* **Reset Button**: Restore all properties to their default values with a single click.
 
-⭐️ Visualização de Código:
+---
 
-    O código CSS corresponde às seleções, atualizado em tempo real.
+## Tech Stack
 
-    É possível ocultar ou mostrar o bloco de código.
+* **[React](https://react.dev/)**: Core library for UI development.
+* **React Hooks (`useState`)**: State management for dynamic Flexbox values.
+* **[Lucide React](https://lucide.dev/)**: Clean icon suite (`Sparkles`, `RotateCcw`, `Plus`, `Minus`).
+* **CSS-in-JS (Inline Styles)**: Applies reactive styles based on active state.
+* **Google Fonts**: Custom typography using *"Lobster Two"* and *"Quicksand"*.
 
-    Resetar: Um botão "Reset" para voltar todas as propriedades aos seus valores padrão.
+---
 
-⭐️ Tecnologias 
+## Getting Started
 
-    React: Biblioteca principal para construir a interface do usuário.
+To get a local copy up and running, follow these simple steps.
 
-    React Hooks (useState): Usado para gerenciar o estado de todas as propriedades do flexbox.
+### Prerequisites
+Make sure you have Node.js installed on your machine.
 
-    Lucide React: Para os ícones (Sparkles, RotateCcw, Plus, Minus).
+### Installation
 
-    CSS-in-JS (Estilos Inline): Usado para aplicar dinamicamente os estilos que mudam com base no estado.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Siriusana/flexbox-dojo.git](https://github.com/Siriusana/flexbox-dojo.git)
 
-    Google Fonts: Utiliza as fontes "Lobster Two" e "Quicksand".
+2. **Navigate to the project**
+   ```bash
+   cd flexbox-dojo
 
-⭐️ Como Executar
+3. **Install Dependencies**
+   ```bash
+   npm install
 
-# No terminal
-    git clone https://github.com/Siriusana/flexbox-dojo.git
-    cd flexbox-dojo
+4. **Start**
+   ```bash
+   npm run dev
 
-Instale as dependências:
-
-    npm install 
-
-Inicie o servidor de desenvolvimento:
-
-    npm run dev
-
-
-O site deverá abrir automaticamente em http://localhost:5173 (ou similar).
-
-
+ The app will automatically run at http://localhost:5173 (or similar).
